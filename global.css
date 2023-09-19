@@ -1,4 +1,25 @@
 /* Our global CSS */
 :root {
-    background-color: green;
+}
+
+.box {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffFaaa;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.menu{
+    padding: 1rem 3rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white
 }
