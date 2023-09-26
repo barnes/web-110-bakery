@@ -1,9 +1,11 @@
 /* Our global CSS */
 :root {
+    font-family: sans-serif;
+    background-color: f;
 }
 
 .box {
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 1rem;
     background-color: #ffFaaa;
     border: 1px solid black;
@@ -11,10 +13,10 @@
 }
 
 .menu{
-    padding: 1rem 3rem;
+    padding: 0.25rem;
     margin: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .menu a {
